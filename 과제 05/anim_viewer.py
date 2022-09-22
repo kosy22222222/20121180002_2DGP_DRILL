@@ -8,7 +8,7 @@ frame = 0
 while ( x < 800):
     clear_canvas()
     grass.draw(400, 30)
-    character.clip_draw(frame * 60, 70, 60, 50, x, 90)
+    character.clip_draw(frame * 60, 60, 60, 60, x, 90)
     update_canvas()
     frame = (frame + 1) % 8
     x += 5
