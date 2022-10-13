@@ -1,0 +1,3 @@
+import simple_module #모듈은 임폴트 하면 바로 실행됨...
+
+
